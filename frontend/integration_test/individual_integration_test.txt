@@ -1,0 +1,19 @@
+chromedriver --port=4444
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/evaluation_page_caching_online_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/owner_register_login_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/registration_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/evaluation_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/create_patient_integration_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/export_page_form_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/login_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/patient_info_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/patient_info_graph_tab_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/patients_list_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/owner_reassigns_patients_to_different_therapist_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/reset_password_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/patient_archive_page_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/generate_referral_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/evaluation_tags_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/patient_info_graph_tab_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/guest_mode_test.dart -d chrome --dart-define=FLUTTER_TEST=true
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/tutorial_test.dart -d chrome --dart-define=FLUTTER_TEST=true

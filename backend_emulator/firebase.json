@@ -1,0 +1,22 @@
+{
+  "emulators": {
+    "firestore": {
+      "port": 8080
+    },
+    "auth": {
+      "port": 9099,
+      "options": {
+        "emailVerification": {
+          "enabled": true
+        }
+      }
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": false
+  },
+  "firestore": {
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hippo-api", "hippo-api\hippo-api.csproj", "{3A00AE18-74FA-4CBC-A08F-0FDBE64FD862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{C367E1F2-C9DD-4B01-9A68-E92DAD05DA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integration-tests", "integration-tests\integration-tests.csproj", "{2F98D5A5-B425-4271-83BE-D553EDB157F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A00AE18-74FA-4CBC-A08F-0FDBE64FD862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A00AE18-74FA-4CBC-A08F-0FDBE64FD862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A00AE18-74FA-4CBC-A08F-0FDBE64FD862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A00AE18-74FA-4CBC-A08F-0FDBE64FD862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C367E1F2-C9DD-4B01-9A68-E92DAD05DA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C367E1F2-C9DD-4B01-9A68-E92DAD05DA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C367E1F2-C9DD-4B01-9A68-E92DAD05DA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C367E1F2-C9DD-4B01-9A68-E92DAD05DA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F98D5A5-B425-4271-83BE-D553EDB157F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F98D5A5-B425-4271-83BE-D553EDB157F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F98D5A5-B425-4271-83BE-D553EDB157F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F98D5A5-B425-4271-83BE-D553EDB157F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(RiderSharedRunConfigurations) = postSolution
+		File = hippo-api\config\Integration.run.xml
+	EndGlobalSection
+EndGlobal
